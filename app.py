@@ -53,7 +53,7 @@ X_train_selected = X_train[selected_columns]
 X_test_selected = X_test[selected_columns]
 clf = RandomForestClassifier()
 clf.fit(X_train_selected, y_train)
-st.title("Diabetes Prediction App)
+st.title("Diabetes Prediction App")
 age = st.number_input("Enter Age:")
 polyuria = st.text_input("Polyuria: Excessive Urination (Enter 1 for Yes, 0 for No):")
 polydipsia = st.text_input("Polydipsia: Excessive Thirstiness (Enter 1 for Yes, 0 for No):")
